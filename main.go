@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main()  {
-	var Base uint64
+	var base uint64
 	var altura uint64
 
-	fmt.Scanln(&Base)
+	fmt.Scanln(&base)
 	fmt.Scanln(&altura)
-	area := (Base*altura)/2
+	area := (base*altura)/2
 	fmt.Println(area)
 }
